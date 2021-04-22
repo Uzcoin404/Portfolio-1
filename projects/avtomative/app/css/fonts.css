@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('/projects/avtomative/app/fonts/PTSerif-Regular.eot');
+    src: url('/projects/avtomative/app/fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/projects/avtomative/app/fonts/PTSerif-Regular.woff2') format('woff2'),
+        url('/projects/avtomative/app/fonts/PTSerif-Regular.woff') format('woff'),
+        url('/projects/avtomative/app/fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Couture';
+    src: url('/projects/avtomative/app/fonts/Couture-Bold.eot');
+    src: url('/projects/avtomative/app/fonts/Couture-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/projects/avtomative/app/fonts/Couture-Bold.woff2') format('woff2'),
+        url('/projects/avtomative/app/fonts/Couture-Bold.woff') format('woff'),
+        url('/projects/avtomative/app/fonts/Couture-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quite Chocolatey';
+    src: url('/projects/avtomative/app/fonts/QuiteChocolatey.eot');
+    src: url('/projects/avtomative/app/fonts/QuiteChocolatey.eot?#iefix') format('embedded-opentype'),
+        url('/projects/avtomative/app/fonts/QuiteChocolatey.woff2') format('woff2'),
+        url('/projects/avtomative/app/fonts/QuiteChocolatey.woff') format('woff'),
+        url('/projects/avtomative/app/fonts/QuiteChocolatey.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/projects/avtomative/app/fonts/Montserrat-Bold.eot');
+    src: url('/projects/avtomative/app/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/projects/avtomative/app/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('/projects/avtomative/app/fonts/Montserrat-Bold.woff') format('woff'),
+        url('/projects/avtomative/app/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/projects/avtomative/app/fonts/Montserrat-Medium.eot');
+    src: url('/projects/avtomative/app/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/projects/avtomative/app/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('/projects/avtomative/app/fonts/Montserrat-Medium.woff') format('woff'),
+        url('/projects/avtomative/app/fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

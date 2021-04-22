@@ -1,0 +1,261 @@
+@media (max-width: 1200px) and (min-width: 993px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1080px) and (min-width: 993px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pos__blog{
+        right: 30px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .head__title{
+        font-size: 82px;
+    }
+    .pos__blog{
+        top: 190px;
+        right: 20px;
+        padding: 25px 20px 20px;
+    }
+    .inputs{
+        width: 320px;
+        font-size: 20px;
+        height: 50px;
+    }
+    .checkbox__text{
+        font-size: 16px;
+    }
+    .button{
+        width: 320px;
+        text-align: center;
+        padding: 15px 0;
+    }
+    .row .col-3{
+        padding-bottom: 20px;
+    }
+    .service__footer__text{
+        padding-right: 30px;
+    }
+    .service__footer__link{
+        padding: 25px 70px 25px 60px;
+        width: max-content;
+    }
+    .card{
+        flex-direction: column;
+        justify-content: space-between;
+    } 
+    .card__link{
+        width: max-content;
+    }
+    .card__link__other{
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+    }  
+}
+
+@media (max-width: 880px) and (min-width: 577px) {
+    .nav__blog{
+        display: block;
+        width: 100%;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        font-size: 72px;
+    }
+    .nav__part{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pos__blog{
+        display: none;
+        opacity: 0;
+        position: none;
+        top: -1000px;
+    }
+}
+
+@media (max-width: 880px) {
+
+
+    .service .row{
+        justify-content: space-around;
+    }
+    .service__title{
+        text-align: center;
+    }
+    .service .col-3{
+        padding-bottom: 30px;
+    }
+    .pricing .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pricing .col-4{
+        width: min-content;
+        padding-bottom: 15px;
+        padding-right: 20px;
+    }
+    .card__text{
+        width: 320px;
+    }
+    .foot__text{
+        padding-right: 30px;
+    }
+
+
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .head__title{
+        font-size: 76px;
+    }
+    .head__box{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .head__title{
+        width: max-content;
+    }
+    .row .col-3{
+        padding-bottom: 20px;
+    }
+    .service__footer__text{
+        padding-right: 30px;
+    }
+    .service__footer__link{
+        padding: 25px 70px 25px 60px;
+        width: max-content;
+    }
+    .card__link{
+        width: max-content;
+    }
+    .card__link__other{
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+    } 
+    .gallery__blog{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .right{
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .nav .container{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active::before{
+        content: "\f00d";
+    }
+    .nav__part{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: #222;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        transition: all 0.5s ease;
+    }
+    .nav__part.active{
+        left: 0;
+    }
+    .nav__list{
+        display: block;
+    }
+    li a{
+        display: inline-block;
+        text-align: center;
+        font-size: 22px;
+        margin: 15px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .head__title{
+        width: max-content;
+        font-size: 62px;
+    }
+    .service .row{
+        justify-content: space-around;
+    }
+    .service__title{
+        text-align: center;
+    }
+    .service .col-3{
+        padding-bottom: 30px;
+    }
+    .nav.sticky .logo{
+        font-size: 56px;
+    }
+    .logo{
+        font-size: 62px;
+    }
+    
+    .pos__blog{
+        display: none;
+        opacity: 0;
+        position: none;
+        top: -1000px;
+    }
+    .pricing .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pricing .col-4{
+        width: min-content;
+        padding-bottom: 15px;
+        padding-right: 20px;
+    }
+    .card__text{
+        width: 320px;
+    }
+    .gallery__blog{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .right{
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot__text{
+        padding-right: 30px;
+    }
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('PTSerif-Regular.eot');
+    src: url('PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PTSerif-Regular.woff2') format('woff2'),
+        url('PTSerif-Regular.woff') format('woff'),
+        url('PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Couture';
+    src: url('Couture-Bold.eot');
+    src: url('Couture-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Couture-Bold.woff2') format('woff2'),
+        url('Couture-Bold.woff') format('woff'),
+        url('Couture-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quite Chocolatey';
+    src: url('QuiteChocolatey.eot');
+    src: url('QuiteChocolatey.eot?#iefix') format('embedded-opentype'),
+        url('QuiteChocolatey.woff2') format('woff2'),
+        url('QuiteChocolatey.woff') format('woff'),
+        url('QuiteChocolatey.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.eot');
+    src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff'),
+        url('Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.eot');
+    src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Medium.woff2') format('woff2'),
+        url('Montserrat-Medium.woff') format('woff'),
+        url('Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

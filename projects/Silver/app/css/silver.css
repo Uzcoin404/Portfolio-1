@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* header */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+.head__img{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.nav_list{
+    display: flex;
+    justify-content: center;
+}
+.nav_link{
+    font-size: 18px;
+    color: #bab9b9;
+    margin: 0 20px;
+    
+}
+.nav_link:hover{
+    color: #4581b7;
+    border-bottom: 1px solid #4581b7;
+    padding-bottom: 15px;
+}
+.pic{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* header end */
+.main_blog{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 700px;
+    background-color: #f3f3f3;
+}
+.right{
+    width: 350px;
+    background-color: #f3f3f3;
+}
+.left_title{
+    font-size: 20px;
+    color: #4581b7;
+    font-weight: bold;
+    padding: 50px 0 25px 40px;
+}
+.left_text{
+    font-size: 16px;
+    font-weight: bold;
+    color: #7f7f7f;
+    line-height: 27px;
+    padding: 0 100px 90px 40px;
+}
+.right_title{
+    font-size: 20px;
+    color: #4581b7;
+    font-weight: bold;
+    padding: 50px 0 25px 40px;
+}
+.right_text{
+    font-size: 16px;
+    font-weight: bold;
+    color: #7f7f7f;
+    line-height: 27px;
+    padding: 0 50px 55px 40px;
+}
+/* Main end */
+/* Foot */
+.footer{
+    padding: 30px;
+}
+.foot_blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+.foot_text{
+    font-size: 16px;
+    font-weight: normal;
+    color: #808080;
+    padding-right: 40px;
+}
+.number{
+    font-size: 25px;
+    font-weight: bold;
+    color: #808080;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+.logo2{
+    padding: 15px 0 15px 35px;
+}
+
+.foot__contact{
+    display: flex;
+    justify-content: center;
+}
+.foot__contact__text{
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-size: 18px;
+    /* color: #fff; */
+    color: #000;
+    padding-bottom: 10px;
+    font-weight: 300;
+    padding: 0 20px;
+}
+.foot__contact__text:hover{
+    text-decoration: underline;
+    color: #ff4167;
+}
+/* Foot end */

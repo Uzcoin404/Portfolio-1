@@ -1,0 +1,124 @@
+@media (max-width: 1200px) and (min-width: 993px) {
+    
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section1__img{
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .section3__card{
+        padding-bottom: 50px;
+    }
+    .section3__blog{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .head__title{
+        font-size: 64px;
+    }
+    .section1__content{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1__title{
+        text-align: center;
+    }
+    .section1__part{
+        justify-content: center;
+    }
+    .section1__img{
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .section2__card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section__right{
+        padding-top: 20px;
+    }
+    .left__img{
+        width: 325px;
+        height: 225px;
+    }
+    .section3__card{
+        padding-bottom: 50px;
+    }
+    .section3__blog{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    } 
+}
+
+@media (max-width: 576px) {
+
+    .nav__content{
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .nav__title{
+        padding-bottom: 20px;
+    }
+    .nav__blog{
+        width: 100%;
+        justify-content: center;
+    }
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .head__title{
+        font-size: 56px;
+    }
+    .section1__content{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1__title{
+        text-align: center;
+    }
+    .section1__part{
+        justify-content: center;
+    }
+    .section1__img{
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .section2__card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section__left{
+        width: min-content;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section__right{
+        padding-top: 20px;
+    }
+    .section3__card{
+        padding-bottom: 50px;
+    }
+    .section3__blog{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

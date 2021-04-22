@@ -1,0 +1,77 @@
+@media (max-width: 1200px) and (min-width: 993px) {
+    
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .left{
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menu-btn{
+        display: block;
+    }
+    .nav__list{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        background-color: #dd4400;
+        display: block;
+        padding-top: 50px;
+        text-align: center;
+        transition: all 0.5s ease;
+        z-index: 999;
+    }
+    .nav__list.active{
+        left: 0;
+        transition: all 0.5s ease;
+    }
+    .nav__link{
+        display: inline-block;
+        padding-top: 25px;
+    }
+    .menu-btn i.active::before{
+        content: "\f00d";
+    }
+
+    .card__blog{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .main__blog{
+        flex-wrap: wrap;
+    }
+    .right__content{
+        display: flex;
+        width: 100%;
+    }
+    
+    .right__boss{
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    .foot__numb{
+        font-size: 36px;
+    }
+    .foot__h{
+        font-size: 24px;
+    }
+    .foot__p{
+        font-size: 18px;
+    }
+    .foot{
+        text-align-last: left;
+        flex-wrap: wrap;
+    }
+    .foot__right{
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+
+}
