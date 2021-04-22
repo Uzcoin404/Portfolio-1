@@ -17,7 +17,7 @@ li{
     margin: 0 auto;
 }
 .header{
-    background: url("../img/bg_img.jpg") no-repeat center / cover;
+    background: url("/projects/Toshkent/app/img/bg_img.jpg") no-repeat center / cover;
     height: 600px;
 }
 h2{
