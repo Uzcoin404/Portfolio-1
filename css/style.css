@@ -131,9 +131,9 @@ body{
 
 
 header{
-  background: url(img/Banner.jpg) no-repeat center;
+  background: url(/img/Banner.jpg) no-repeat center / cover;
   height: 100vh;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-size: cover;
 }
 nav {
