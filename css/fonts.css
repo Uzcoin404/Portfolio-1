@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Thin.eot');
-    src: url('fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Montserrat-Thin.woff2') format('woff2'),
-        url('fonts/Montserrat-Thin.woff') format('woff'),
-        url('fonts/Montserrat-Thin.ttf') format('truetype');
+    src: url('Portfolio-1/fonts/Montserrat-Thin.eot');
+    src: url('Portfolio-1/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Portfolio-1/fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('Portfolio-1/fonts/Montserrat-Thin.woff') format('woff'),
+        url('Portfolio-1/fonts/Montserrat-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -13,7 +13,7 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('Portfolio-1/fonts/Montserrat-Bold.eot');
-    src: url(Portfolio-1/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+    src: url('Portfolio-1/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
         url('Portfolio-1/fonts/Montserrat-Bold.woff2') format('woff2'),
         url('Portfolio-1/fonts/Montserrat-Bold.woff') format('woff'),
         url('Portfolio-1/fonts/Montserrat-Bold.ttf') format('truetype');
@@ -25,10 +25,10 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('Portfolio-1/fonts/Montserrat-BlackItalic.eot');
-    src: url('Portfolio-1/css/fonts.css/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('Portfolio-1/css/fonts.css/Montserrat-BlackItalic.woff2') format('woff2'),
-        url('Portfolio-1/css/fonts.css/Montserrat-BlackItalic.woff') format('woff'),
-        url('Portfolio-1/css/fonts.css/Montserrat-BlackItalic.ttf') format('truetype');
+    src: url('Portfolio-1/fonts/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Portfolio-1/fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('Portfolio-1/fonts/Montserrat-BlackItalic.woff') format('woff'),
+        url('Portfolio-1/fonts/Montserrat-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -72,11 +72,11 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/Roboto-Medium.eot');
-    src: url('/fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/Roboto-Medium.woff2') format('woff2'),
-        url('/fonts/Roboto-Medium.woff') format('woff'),
-        url('/fonts/Roboto-Medium.ttf') format('truetype');
+    src: url('Portfolio-1/fonts/Roboto-Medium.eot');
+    src: url('Portfolio-1/fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Portfolio-1/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('Portfolio-1/fonts/Roboto-Medium.woff') format('woff'),
+        url('Portfolio-1/fonts/Roboto-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -96,11 +96,11 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Regular.eot');
-    src: url('/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/OpenSans-Regular.woff2') format('woff2'),
-        url('/fonts/OpenSans-Regular.woff') format('woff'),
-        url('/fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('Portfolio-1/fonts/OpenSans-Regular.eot');
+    src: url('Portfolio-1/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Portfolio-1/fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('Portfolio-1/fonts/OpenSans-Regular.woff') format('woff'),
+        url('Portfolio-1/fonts/OpenSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
