@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/Portfolio-1/fonts/Montserrat-BlackItalic.eot');
-    src: url('/Portfolio-1/fonts/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('/Portfolio-1/fonts/Montserrat-BlackItalic.woff2') format('woff2'),
-        url('/Portfolio-1/fonts/Montserrat-BlackItalic.woff') format('woff'),
-        url('/Portfolio-1/fonts/Montserrat-BlackItalic.ttf') format('truetype');
+    src: url('fonts/Montserrat-BlackItalic.eot');
+    src: url('fonts/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('fonts/Montserrat-BlackItalic.woff') format('woff'),
+        url('fonts/Montserrat-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
