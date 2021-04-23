@@ -177,7 +177,7 @@
 /***********************************************************************************************************/
 
 header{
-    background: url('img/bg_img.jpg') no-repeat center / cover;
+    background: url('Portfolio-1/projects/burger/app/img/bg_img.jpg') no-repeat center / cover;
     height: 768px;
 }
 li{
@@ -407,7 +407,7 @@ section, .main__nav{
 }
 
 .info{
-    background: url('img/section_bg.jpg') no-repeat center / cover;
+    background: url('Portfolio-1/projects/burger/app/img/section_bg.jpg') no-repeat center / cover;
 }
 .info__title{
     text-transform: uppercase;
