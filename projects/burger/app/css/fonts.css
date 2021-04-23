@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Raleway';
     src: url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Light.eot');
-    src: url('/projects/burger/app/fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
-        url('/projects/burger/app/fonts/Raleway-Light.woff2') format('woff2'),
-        url('/projects/burger/app/fonts/Raleway-Light.woff') format('woff'),
-        url('/projects/burger/app/fonts/Raleway-Light.ttf') format('truetype');
+    src: url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Light.woff2') format('woff2'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Light.woff') format('woff'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -12,11 +12,11 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url('/projects/burger/app/fonts/Raleway-Black.eot');
-    src: url('/projects/burger/app/fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
-        url('/projects/burger/app/fonts/Raleway-Black.woff2') format('woff2'),
-        url('/projects/burger/app/fonts/Raleway-Black.woff') format('woff'),
-        url('/projects/burger/app/fonts/Raleway-Black.ttf') format('truetype');
+    src: url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Black.eot');
+    src: url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Black.woff2') format('woff2'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Black.woff') format('woff'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url('/projects/burger/app/fonts/Raleway-Bold.eot');
-    src: url('/projects/burger/app/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/projects/burger/app/fonts/Raleway-Bold.woff2') format('woff2'),
-        url('/projects/burger/app/fonts/Raleway-Bold.woff') format('woff'),
-        url('/projects/burger/app/fonts/Raleway-Bold.ttf') format('truetype');
+    src: url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Bold.eot');
+    src: url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Bold.woff2') format('woff2'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Bold.woff') format('woff'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -36,11 +36,11 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url('/projects/burger/app/fonts/Raleway-Thin.eot');
-    src: url('/projects/burger/app/fonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
-        url('/projects/burger/app/fonts/Raleway-Thin.woff2') format('woff2'),
-        url('/projects/burger/app/fonts/Raleway-Thin.woff') format('woff'),
-        url('/projects/burger/app/fonts/Raleway-Thin.ttf') format('truetype');
+    src: url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Thin.eot');
+    src: url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Thin.woff2') format('woff2'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Thin.woff') format('woff'),
+        url('https://uzcoin404.github.io/Portfolio-1/projects/app/fonts/Raleway-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
