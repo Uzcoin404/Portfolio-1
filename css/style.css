@@ -131,7 +131,7 @@ body{
 
 
 header{
-  background: url(/Portfolio-1/img/Banner.jpg) no-repeat center / cover;
+  background: url(/img/Banner.jpg) no-repeat center / cover;
   height: 100vh;
   background-attachment: fixed;
   background-size: cover;
