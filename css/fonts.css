@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('Portfolio-1/fonts/Montserrat-Thin.eot');
-    src: url('Portfolio-1/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Portfolio-1/fonts/Montserrat-Thin.woff2') format('woff2'),
-        url('Portfolio-1/fonts/Montserrat-Thin.woff') format('woff'),
-        url('Portfolio-1/fonts/Montserrat-Thin.ttf') format('truetype');
+    src: url('fonts/Montserrat-Thin.eot');
+    src: url('fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('fonts/Montserrat-Thin.woff') format('woff'),
+        url('Pfonts/Montserrat-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -12,11 +12,11 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Portfolio-1/fonts/Montserrat-Bold.eot');
-    src: url('Portfolio-1/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Portfolio-1/fonts/Montserrat-Bold.woff2') format('woff2'),
-        url('Portfolio-1/fonts/Montserrat-Bold.woff') format('woff'),
-        url('Portfolio-1/fonts/Montserrat-Bold.ttf') format('truetype');
+    src: url('fonts/Montserrat-Bold.eot');
+    src: url('fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff'),
+        url('fonts/Montserrat-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Portfolio-1/fonts/Montserrat-BlackItalic.eot');
-    src: url('Portfolio-1/fonts/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('Portfolio-1/fonts/Montserrat-BlackItalic.woff2') format('woff2'),
-        url('Portfolio-1/fonts/Montserrat-BlackItalic.woff') format('woff'),
-        url('Portfolio-1/fonts/Montserrat-BlackItalic.ttf') format('truetype');
+    src: url('fonts/Montserrat-BlackItalic.eot');
+    src: url('fonts/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('fonts/Montserrat-BlackItalic.woff') format('woff'),
+        url('fonts/Montserrat-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
