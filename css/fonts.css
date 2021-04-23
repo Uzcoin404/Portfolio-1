@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/Portfolio-1/fonts/Montserrat-BlackItalic.eot');
+    src: url('Portfolio-1/fonts/Montserrat-BlackItalic.eot');
     src: url('Portfolio-1/css/fonts.css/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
         url('Portfolio-1/css/fonts.css/Montserrat-BlackItalic.woff2') format('woff2'),
         url('Portfolio-1/css/fonts.css/Montserrat-BlackItalic.woff') format('woff'),
@@ -36,11 +36,11 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/Portfolio-1/fonts/Montserrat-Light.eot');
-    src: url('/Portfolio-1/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-        url('/Portfolio-1/fonts/Montserrat-Light.woff2') format('woff2'),
-        url('/Portfolio-1/fonts/Montserrat-Light.woff') format('woff'),
-        url('/Portfolio-1/fonts/Montserrat-Light.ttf') format('truetype');
+    src: url('Portfolio-1/fonts/Montserrat-Light.eot');
+    src: url('Portfolio-1/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('Portfolio-1/fonts/Montserrat-Light.woff2') format('woff2'),
+        url('Portfolio-1/fonts/Montserrat-Light.woff') format('woff'),
+        url('Portfolio-1/fonts/Montserrat-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
