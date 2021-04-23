@@ -60,11 +60,11 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/Roboto-Bold.eot');
-    src: url('/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/Roboto-Bold.woff2') format('woff2'),
-        url('/fonts/Roboto-Bold.woff') format('woff'),
-        url('/fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('Portfolio-1/fonts/Roboto-Bold.eot');
+    src: url('Portfolio-1/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Portfolio-1/fonts/Roboto-Bold.woff2') format('woff2'),
+        url('Portfolio-1/fonts/Roboto-Bold.woff') format('woff'),
+        url('Portfolio-1/fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -84,11 +84,11 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/Roboto-Regular.eot');
-    src: url('/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/Roboto-Regular.woff2') format('woff2'),
-        url('/fonts/Roboto-Regular.woff') format('woff'),
-        url('/fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('Portfolio-1/fonts/Roboto-Regular.eot');
+    src: url('Portfolio-1/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Portfolio-1/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('Portfolio-1/fonts/Roboto-Regular.woff') format('woff'),
+        url('Portfolio-1/fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
