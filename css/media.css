@@ -235,6 +235,11 @@
   .nav__info{
     font-size: 26px;
   }
+  .info__img{
+    width: 90%;
+    height: 50%;
+    object-fit: cover;
+  }
   span.typing{
     font-size: 30px;
   }
