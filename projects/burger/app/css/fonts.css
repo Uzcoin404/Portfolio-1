@@ -1,59 +1,10 @@
-  
-@font-face {
-    font-family: 'Roboto';
-    src: url('fonts/Roboto-Bold.eot');
-    src: url('fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Roboto-Bold.woff2') format('woff2'),
-        url('Roboto-Bold.woff') format('woff'),
-        url('Roboto-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
 @font-face {
     font-family: 'Raleway';
-    src: url('Raleway-Black.eot');
-    src: url('Raleway-Black.eot?#iefix') format('embedded-opentype'),
-        url('Raleway-Black.woff2') format('woff2'),
-        url('Raleway-Black.woff') format('woff'),
-        url('Raleway-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Raleway';
-    src: url('Raleway-Bold.eot');
-    src: url('Raleway-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Raleway-Bold.woff2') format('woff2'),
-        url('Raleway-Bold.woff') format('woff'),
-        url('Raleway-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Myriad Pro';
-    src: url('MyriadPro-Regular.eot');
-    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('MyriadPro-Regular.woff2') format('woff2'),
-        url('MyriadPro-Regular.woff') format('woff'),
-        url('MyriadPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Raleway';
-    src: url('Raleway-Light.eot');
-    src: url('Raleway-Light.eot?#iefix') format('embedded-opentype'),
-        url('Raleway-Light.woff2') format('woff2'),
-        url('Raleway-Light.woff') format('woff'),
-        url('Raleway-Light.ttf') format('truetype');
+    src: url('../fonts/Raleway-Light.eot');
+    src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/Raleway-Light.woff') format('woff'),
+        url('../fonts/Raleway-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -61,24 +12,61 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url('Raleway-Regular.eot');
-    src: url('Raleway-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Raleway-Regular.woff2') format('woff2'),
-        url('Raleway-Regular.woff') format('woff'),
-        url('Raleway-Regular.ttf') format('truetype');
-    font-weight: normal;
+    src: url('../fonts/Raleway-Black.eot');
+    src: url('../fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Black.woff2') format('woff2'),
+        url('../fonts/Raleway-Black.woff') format('woff'),
+        url('../fonts/Raleway-Black.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: url('Raleway-Thin.eot');
-    src: url('Raleway-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Raleway-Thin.woff2') format('woff2'),
-        url('Raleway-Thin.woff') format('woff'),
-        url('Raleway-Thin.ttf') format('truetype');
+    src: url('../fonts/Raleway-Bold.eot');
+    src: url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway-Bold.woff') format('woff'),
+        url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Thin.eot');
+    src: url('../fonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Thin.woff2') format('woff2'),
+        url('../fonts/Raleway-Thin.woff') format('woff'),
+        url('../fonts/Raleway-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.eot');
+    src: url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff'),
+        url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
