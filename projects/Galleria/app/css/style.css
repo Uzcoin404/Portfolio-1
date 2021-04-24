@@ -118,7 +118,7 @@ a{
 
 
 header{
-    background: url('/projects/Galleria/app/img/7971.jpg') no-repeat center / cover;
+    background: url('/Portfolio-1/projects/Galleria/app/img/7971.jpg') no-repeat center / cover;
     height: 80vh;
     position: relative;
     animation: slider 9s infinite linear;
@@ -302,12 +302,12 @@ header{
 }
 
 @keyframes animate{
-    /* 0%{
+    0%{
         transform: rotate(360deg);
     }
     100%{
         transform: rotate(0deg);
-    } */
+    }
 }
 
 .content{
