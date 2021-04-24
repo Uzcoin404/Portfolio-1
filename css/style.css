@@ -695,6 +695,26 @@ nav ul li{
   border-color: #fff;
 }
 
+.new{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #33ff00;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.carousel__card:hover .new{
+  background-color: #fff;
+  color: #000;
+  transition: all 0.5s ease;
+}
+
 /* Carousel bottom next button */
 .owl-dots{
   text-align: center;
