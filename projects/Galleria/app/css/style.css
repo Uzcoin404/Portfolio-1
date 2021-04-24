@@ -125,7 +125,7 @@ header{
 }
 @keyframes slider{
     0% {
-        background: url('/projects/Galleria/app/img/7971.jpg') no-repeat center / cover;
+        background: url('/Portfolio-1/projects/Galleria/app/img/7971.jpg') no-repeat center / cover;
     }
     33%{
         background: url('https://image.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background_1048-11333.jpg') no-repeat center / cover;
