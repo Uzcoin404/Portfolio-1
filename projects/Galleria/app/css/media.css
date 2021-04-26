@@ -137,14 +137,14 @@
     .circle{
         margin: 0 0 30px 0;
         padding: 0;
-        width: 275px;
-        height: 275px;
+        width: 250px;
+        height: 250px;
     }
     .circle__text{
         display: none;
     }
     .circle__subtitle{
-        padding: 25px 0 30px;
+        padding: 15px 0 20px;
     }
     .art__content{
         grid-template: "1fr 1fr" 30vh
