@@ -422,11 +422,11 @@
         align-items: center;
     }
     .card{
-        width: 350px;
+        width: 300px;
     }
     .card__img{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
     .card__text{
         text-align: center;
