@@ -90,7 +90,12 @@
 
 @media (max-width: 880px) {
 
-
+    .logo{
+        font-size: 64px;
+    }
+    .nav.sticky .logo{
+        font-size: 56px;
+    }
     .service .row{
         justify-content: space-around;
     }
@@ -169,8 +174,10 @@
 
 @media (max-width: 576px) {
 
-    .nav .container{
-        padding: 0 50px;
+    .nav__blog{
+        box-sizing: border-box;
+        justify-content: space-between;
+        padding: 5px 0;
     }
     .menu-btn{
         display: block;
@@ -207,13 +214,22 @@
     }
     .head__title{
         width: max-content;
-        font-size: 62px;
+        font-size: 56px;
+    }
+    .head__text{
+        width: 90%;
     }
     .service .row{
         justify-content: space-around;
     }
     .service__title{
         text-align: center;
+    }
+    .service__footer__text{
+        font-size: 18px;
+    }
+    .service__footer__link{
+        padding: 30px 20px;
     }
     .service .col-3{
         padding-bottom: 30px;
@@ -250,12 +266,26 @@
     }
     .right{
         padding-top: 30px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+    }
+    .right__blog{
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .right__box{
+        flex-wrap: wrap;
+    }
+    .right .col-6{
+        width: 100%;
     }
     .foot__text{
         padding-right: 30px;
+    }
+    .foot__logo{
+        font-size: 56px;
+    }
+    .foot__contact{
+        padding-top: 20px;
     }
 }
