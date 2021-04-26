@@ -46,22 +46,24 @@
         flex-wrap: wrap;
     }
     .right__content{
-        display: flex;
-        width: 100%;
+        flex-wrap: wrap;
     }
     
     .right__boss{
         padding-bottom: 20px;
-        padding-right: 30px;
     }
     .foot__numb{
-        font-size: 36px;
+        font-size: 32px;
+        padding-bottom: 10px;
     }
     .foot__h{
         font-size: 24px;
     }
     .foot__p{
         font-size: 18px;
+    }
+    .foot__p1{
+        text-align: left;
     }
     .foot{
         text-align-last: left;
