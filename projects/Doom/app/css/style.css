@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 a{
@@ -16,16 +17,72 @@ li{
     width: 100%;
     margin: 0 auto;
 }
+
+.scroll-up-btn{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 47px;
+    height: 50px;
+    background: #ff5c5c;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+}
+.scroll-up-btn.show{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.5s ease;
+}
+
+
+.menu-btn{
+    color: #ff5c5c;
+    font-size: 20px;
+    display: none;
+}
+
+
 /**************************************************************************************************/
 /**                                         Header begin                                         **/                                   
 /**************************************************************************************************/
+
 .header{
     background: url("/Portfolio-1/projects/Doom/app/img/pexels-lumn-399161.jpg") no-repeat center / cover;
     height: 90vh;
 }
 .nav{
     display: flex;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5s ease;
 }
+
+.nav.sticky{
+    padding: 5px;
+    background: #ff6d6d;
+    transition: all 0.5s ease;
+}
+.nav.sticky .nav__link{
+    color: #fff;
+}
+.nav.sticky .nav__link:hover{
+    background: none;
+}
+.nav.sticky .logo__text{
+    color: #fff;
+}
+.nav.sticky .menu-btn{
+    color: #fff;
+}
+
 .nav__blog{
     display: flex;
     justify-content: space-between;
@@ -34,7 +91,6 @@ li{
 .logo{
     display: flex;
     align-items: center;
-    padding: 10px 0 10px;
 }
 .logo__img{
     width: 50px;
@@ -58,7 +114,7 @@ li{
     color: #ff5c5c;
     font-weight: 900;
     padding: 10px 20px;
-    transition: .3s;
+    transition: .5s;
     border-radius: 25px;
 }
 .nav__link:hover{
@@ -66,7 +122,7 @@ li{
     color: #fff;
 }
 h1{
-    padding-top: 50px;
+    padding-top: 100px;
     font-family: 'Montserrat', sans-serif;
     font-size: 72px;
     color: #ff5c5c;
