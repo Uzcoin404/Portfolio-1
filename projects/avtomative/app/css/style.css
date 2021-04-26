@@ -257,13 +257,13 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 99;
-    padding: 17.5px 0;
-    transition: all 0.5s ease;
-}
-.nav.sticky{
+    z-index: 999;
     transition: all 0.5s ease;
     padding: 5px 0;
+}
+.nav.sticky{
+    padding: 0;
+    transition: all 0.5s ease;
     background-color: #c62314;
 }
 .nav.sticky .logo{
@@ -548,15 +548,20 @@ li a:hover{
     align-items: center;
     justify-content: center;
 }
-
+.left__blog{
+    flex-wrap: wrap;
+}
+.left__box{
+    flex-wrap: wrap;
+}
+.left__title{
+    font-size: 42px;
+}
 .right__blog{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
-.right__box{
-    display: flex;
 }
 .right__title{
     font-size: 50px;
