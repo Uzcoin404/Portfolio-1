@@ -1,7 +1,7 @@
 @media (max-width: 1200px) and (min-width: 993px) {
     .container{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -55,11 +55,19 @@
         margin-top: 30px;
     }
     .art__content{
-        grid-template: "1fr 1fr 1fr" 200px
-                       "1fr 1fr 1fr" 200px
-                       "1fr 1fr 1fr" 200px
-                       "1fr 1fr 1fr" 200px
-                       "1fr 1fr 1fr" 200px;
+        grid-template: "1fr 1fr 1fr" 33.33vh
+                       "1fr 1fr 1fr" 33.33vh
+                       "1fr 1fr 1fr" 33.33vh
+                       "1fr 1fr 1fr" 33.33vh;
+    }
+    .box.a, .box.e, .box.g{
+        grid-row: span 1;
+    }
+    .box.i{
+        grid-column: span 1;
+    }
+    .box.d{
+        grid-row: span 1;
     }
     .footer .container{
         flex-wrap: wrap;
@@ -116,6 +124,9 @@
     .head__text{
         font-size: 24px;
     }
+    .art__content{
+        padding: 100px 0 0;
+    }
     .head__link{
         padding: 10px 20px;
         font-size: 18px;
@@ -126,5 +137,23 @@
     .circle{
         margin: 0 0 30px 0;
         padding: 0;
+    }
+    .art__content{
+        grid-template: "1fr 1fr" 30vh
+                       "1fr 1fr" 30vh
+                       "1fr 1fr" 30vh
+                       "1fr 1fr" 30vh
+                       "1fr 1fr" 30vh
+                       "1fr 1fr" 30vh;
+    }
+    .art__down__link{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .art__down__link i{
+        font-size: 20px;
+    }
+    .soc-media p{
+        width: 90%;
     }
 }
