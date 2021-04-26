@@ -1,10 +1,13 @@
 @media (max-width: 1200px) {
-    
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 @media (max-width: 992px) and (min-width: 851px) {
     .container{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     header{
         height: 100vh;
@@ -52,8 +55,8 @@
 }
 @media (max-width: 850px) and (min-width: 751px) {
     .container{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     header{
         height: 100vh;
@@ -333,6 +336,41 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .nav__list{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        background-color: #060002;
+        display: block;
+        padding-top: 50px;
+        transition: all 0.5s ease;
+    }
+    .nav__link{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 22px;
+    }
+    .nav.sticky{
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .nav__list.active{
+        left: 0;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active::before{
+        content: "\f00d";
+    }
+
     header{
         height: 80vh;
     }
@@ -366,11 +404,13 @@
         padding: 15px 40px;
     }
     .main__nav__link{
-        font-size: 16px;
+        display: inline-block;
+        font-size: 18px;
+        padding: 5px 0;
     }
     .main__nav__list{
-        display: flex;
-        justify-content: center;
+        display: block;
+        text-align: center;
     }
 
     .col-4{
@@ -413,10 +453,12 @@
     .foot__blog__title{
         font-size: 20px;
     }
-    .foot__nav__link{
-        font-size: 14px;
+    .foot__nav__list{
+        display: block;
+        display: flex;
+        justify-content: space-between;
     }
-    .foot__info{
-        font-size: 14px;
+    .foot__nav__link{
+        padding: 0 15px;
     }
 }
