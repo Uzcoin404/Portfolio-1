@@ -504,6 +504,9 @@ section, .main__nav{
     text-align: center;
     padding: 40px 0 20px;
 }
+.nav__icons{
+    display: flex;
+}
 
 
 .foot__contact{
