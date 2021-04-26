@@ -1,11 +1,14 @@
 @media (max-width: 1200px) and (min-width: 993px) {
-    
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
     .container{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .section1__img{
         width: 300px;
@@ -74,6 +77,10 @@
     }
     .nav__title{
         padding-bottom: 20px;
+        font-size: 22px;
+    }
+    .nav__number{
+        font-size: 20px;
     }
     .nav__blog{
         width: 100%;
@@ -85,11 +92,18 @@
     }
     .head__title{
         font-size: 56px;
+        width: min-content;
+    }
+    .typing2{
+        font-size: 56px;
     }
     .section1__content{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+    .section1__h{
+        padding: 0;
     }
     .section1__title{
         text-align: center;
@@ -120,5 +134,8 @@
     .section3__blog{
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+    .foot {
+        flex-wrap: wrap;
     }
 }
