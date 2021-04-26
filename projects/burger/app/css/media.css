@@ -446,6 +446,9 @@
     .maps{
         width: var(--col-12);
     }
+    .nav__icons{
+        flex-direction: column;
+    }
 
     .foot__number{
         font-size: 20px;
