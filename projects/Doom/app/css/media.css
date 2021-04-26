@@ -1,28 +1,31 @@
 @media (max-width: 1200px) and (min-width: 993px) {
-    
+    .container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
+
 @media (max-width: 992px) and (min-width: 769px) {
     .container{
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .part1__img, .part2__img, .part3__img{
         width: 400px;
         height: 300px;
     }
 }
+
 @media (max-width: 768px) and (min-width: 577px) {
     h1{
         font-size: 60px;
     }
     .container{
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .nav__blog{
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        width: max-content;
     }
     .head__text{
         width: 500px;
@@ -42,6 +45,7 @@
     }
     .part2__title{
         top: 100px;
+        left: 75px;
     }
     .part3{
         flex-wrap: wrap;
@@ -57,13 +61,53 @@
     .foot2__title{
         font-size: 52px;
     }
+    .foot1__addres{
+        font-size: 42px;
+    }
 }
+
+@media (max-width: 700px) {
+
+    .container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .menu-btn{
+        display: block;
+    }
+    .nav__list{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        background: #ff6d6d;
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+        transition: all 0.5s ease;
+    }
+    .nav__list.active{
+        left: 0;
+    }
+    .nav__link{
+        display: inline-block;
+        color: #fff;
+        padding: 15px 30px;
+    }
+    .nav__link:hover{
+        background: none;
+    }
+    .menu-btn i.active::before{
+        content: "\f00d";
+    }
+}
+
 @media (max-width: 576px){
 
     .nav__blog{
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        width: 80%;
     }
     .logo{
         padding-bottom: 10px;
