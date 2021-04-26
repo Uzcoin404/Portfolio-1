@@ -7,8 +7,8 @@
 
 @media (max-width: 992px) and (min-width: 769px) {
     .container{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .cards{
         justify-content: space-evenly;
@@ -137,6 +137,14 @@
     .circle{
         margin: 0 0 30px 0;
         padding: 0;
+        width: 275px;
+        height: 275px;
+    }
+    .circle__text{
+        display: none;
+    }
+    .circle__subtitle{
+        padding: 25px 0 30px;
     }
     .art__content{
         grid-template: "1fr 1fr" 30vh
