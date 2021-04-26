@@ -146,7 +146,7 @@ header{
 }
 .nav.sticky{
     background-color: crimson;
-    padding: 15px;
+    padding: 15px 0;
     transition: all 0.5s ease;
 }
 .nav.sticky .logo:hover{
