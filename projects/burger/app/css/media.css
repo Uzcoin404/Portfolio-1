@@ -391,6 +391,8 @@
     }
     .head__title{
         font-size: 32px;
+        width: min-content;
+        padding-top: 60px;
     }
     .head__subtitle{
         font-size: 24px;    
