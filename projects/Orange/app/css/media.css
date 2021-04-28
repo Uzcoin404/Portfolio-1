@@ -33,9 +33,13 @@
     .nav__link{
         display: inline-block;
         padding-top: 25px;
+        color: #fff;
     }
     .menu-btn i.active::before{
         content: "\f00d";
+    }
+    .menu-btn.show{
+        color: #fff;
     }
 
     .card__blog{
